@@ -9,7 +9,8 @@ The purpose of this assignment is to get you comfortable working with graph stru
 ## Coding Assessment
 In search/graph.py:
 * Define the function bfs that takes in a graph, start node, and optional node and:
-	* If no end node is provided, returns a list of nodes in order of breadth-first search traversal from the given start node
+
+	- [x] If no end node is provided, returns a list of nodes in order of breadth-first search traversal from the given start node
 	* If an end node is provided and a path exists, returns a list of nodes in order of the shortest path to the end node
 	* If an end node is provided and a path does not exist, returns None
 * Be sure that your code can handle possible edge cases, e.g.:
