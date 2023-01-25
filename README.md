@@ -1,7 +1,7 @@
 # Assignment 2
 Breadth-first search
 
-Note that github actions haven't been run for this assignment- I got a module not found error for my test_bfs.py that I wasn't able to figure out.
+###Note that github actions haven't been run for this assignment- I got a module not found error for my test_bfs.py that I wasn't able to figure out.
 
 My function (bfs), generally speaking operates on the conditional presence or absence of an end_node definition.
 
