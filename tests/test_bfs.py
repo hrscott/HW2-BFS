@@ -7,8 +7,8 @@ import difflib
 import networkx as nx
 
 #creating objects that represent paths to data
-citation_network_dir= pathlib.Path.cwd().resolve().parent / "data/citation_network.adjlist"
-tiny_network_dir= pathlib.Path.cwd().resolve().parent / "data/tiny_network.adjlist"
+citation_network_dir= pathlib.Path(__file__).resolve().parent / "data/citation_network.adjlist"
+tiny_network_dir= pathlib.Path(__file__).resolve().parent / "data/tiny_network.adjlist"
 
 #creating graph objects from above paths
 data_full= nx.read_adjlist(citation_network_dir, delimiter=";", create_using=nx.DiGraph)
