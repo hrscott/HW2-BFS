@@ -1,6 +1,29 @@
 # Assignment 2
 Breadth-first search
 
+Note that github actions haven't been run for this assignment- I got a module not found error for my test_bfs.py that I wasn't able to figure out.
+
+My function (bfs), generally speaking operates on the conditional presence or absence of an end_node definition.
+
+If an end_node isn't specified the function commences a breadth-first-search of the entire given graph starting from a specified source_node. 
+
+example syntax:
+
+           search.bfs(data_in, source_node="enter your graph specific source node here")
+
+           where data_in= nx.read_adjlist(file_path, delimiter=";", create_using=nx.DiGraph)
+
+
+
+If an end_node is specified the function commences a breadth-first search for the shortest path between source_node and end_node.
+
+example syntax:
+
+        search.bfs(data_in, source_node="enter your graph specific source node here", "enter your graph specific end_node here")
+
+        where data_in= nx.read_adjlist(file_path, delimiter=";", create_using=nx.DiGraph)
+
+
 # Assignment Overview
 The purpose of this assignment is to get you comfortable working with graph structures and to implement a breadth-first search function to traverse the graph and find the shortest path between nodes.
 
