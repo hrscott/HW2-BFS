@@ -3,6 +3,7 @@ import pytest
 import search
 import pathlib
 import difflib
+import matplotlib
 import networkx as nx
 
 #creating objects that represent paths to data
